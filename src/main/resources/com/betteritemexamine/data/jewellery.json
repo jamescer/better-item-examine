@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Berserker ring (i)",
+    "itemIds": [11773],
+    "description": "+4% melee strength bonus, on top of the flat strength stat shown \u2014 the imbued version's bonus is easy to miss since it isn't broken out separately in the stats interface.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Berserker_ring_(i)"
+  },
+  {
+    "name": "Brimstone ring",
+    "itemIds": [22246],
+    "description": "50% chance to boost Magic accuracy and lower the target's Magic defence on a hit, alongside its listed stat bonuses.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Brimstone_ring"
+  },
+  {
+    "name": "Ultor ring",
+    "itemIds": [28313],
+    "description": "+8% melee damage passively; further boosted at low HP, similar in spirit to Dharok's set effect but always active.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ultor_ring"
+  },
+  {
+    "name": "Magus ring",
+    "itemIds": [28307],
+    "description": "+5% Magic damage passively (12.5% when a staff normally granting Magic damage is wielded), not shown anywhere in the equipment stats panel.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Magus_ring"
+  }
+]

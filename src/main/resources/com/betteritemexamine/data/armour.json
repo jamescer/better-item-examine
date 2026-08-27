@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Justiciar armour (set)",
+    "itemIds": [22326, 22327, 22328],
+    "description": "Converts a portion of your armour's defensive stats directly into extra damage reduction, on top of the normal defence formula.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Justiciar_armour"
+  },
+  {
+    "name": "Obsidian armour (set) + obsidian weapon",
+    "itemIds": [6106, 6108, 6110],
+    "description": "+20% melee accuracy and +10% melee damage when worn together with an obsidian weapon (e.g. Toktz-xil-ak, tzhaar-ket-om).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Obsidian_armour"
+  },
+  {
+    "name": "Void knight equipment (set)",
+    "itemIds": [8839, 8840, 8842],
+    "description": "+10% accuracy and damage in the matching combat style (melee/ranged/magic) when the full set + correct helm is worn; elite void adds further ranged/magic damage.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Void_Knight_equipment"
+  },
+  {
+    "name": "Inquisitor's armour (set)",
+    "itemIds": [24419, 24420, 24421],
+    "description": "Boosts crush accuracy/damage per piece worn, stacking with the Inquisitor's mace's own passive for a larger combined bonus at full set.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Inquisitor%27s_armour"
+  },
+  {
+    "name": "Dharok's armour (set)",
+    "itemIds": [4716, 4718, 4720, 4722],
+    "description": "Damage increases the lower your current hitpoints are, up to nearly 3x max hit at 1 HP remaining, when the full set is worn.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dharok%27s_armour_set"
+  },
+  {
+    "name": "Verac's armour (set)",
+    "itemIds": [4753, 4755, 4757, 4759],
+    "description": "Attacks have a chance to ignore the target's Defence and Prayer protection entirely when the full set is worn.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Verac%27s_armour_set"
+  },
+  {
+    "name": "Karil's armour (set)",
+    "itemIds": [4732, 4734, 4736, 4738],
+    "description": "Chance to lower the target's Agility level on a successful hit when the full set is worn with a crossbow.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Karil%27s_armour_set"
+  }
+]

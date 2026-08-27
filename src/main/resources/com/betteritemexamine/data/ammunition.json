@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Dragon arrows",
+    "itemIds": [11212],
+    "description": "Higher base ranged strength than rune arrows, with no other special mechanic beyond raw stats \u2014 included here mainly because players often assume there's a hidden proc there isn't.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_arrow"
+  },
+  {
+    "name": "Amethyst arrows",
+    "itemIds": [21326],
+    "description": "5% extra accuracy compared to what raw ranged strength would suggest, making them more accurate than dragon arrows against high-defence targets despite lower max hit.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Amethyst_arrow"
+  },
+  {
+    "name": "Ruby bolts (e)",
+    "itemIds": [9242],
+    "description": "Chance to deal damage equal to 20% of the target's current HP (10% on players) as a bonus hit, capped at 100 damage.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ruby_bolts_(e)"
+  },
+  {
+    "name": "Diamond bolts (e)",
+    "itemIds": [9243],
+    "description": "Chance for a guaranteed critical-style bonus hit dealing extra damage, ignoring some defensive bonuses.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Diamond_bolts_(e)"
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Twisted bow",
+    "itemIds": [20997],
+    "description": "Accuracy and max hit scale up with the target's Magic level, up to +140% accuracy and +250% damage vs. very high Magic targets; reduced vs. low-Magic targets.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Twisted_bow"
+  },
+  {
+    "name": "Dragon hunter lance",
+    "itemIds": [22978],
+    "description": "+20% accuracy and +25% damage against Draconic-type monsters when wielded.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_lance"
+  },
+  {
+    "name": "Dragon hunter crossbow",
+    "itemIds": [21012],
+    "description": "+25% accuracy and +30% damage against Draconic-type monsters; extra passive damage boost at close range.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_crossbow"
+  },
+  {
+    "name": "Craw's bow",
+    "itemIds": [22550],
+    "description": "+50% accuracy and damage while inside the Wilderness, decaying over time unless recharged with Wilderness Sword/Bow/Wand shards.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Craw%27s_bow"
+  },
+  {
+    "name": "Tumeken's shadow",
+    "itemIds": [27275],
+    "description": "Triples the base Magic damage bonus of most staves/wands (quadruples it in the Ancient Guild) and multiplies spell damage roughly 3x outside of raids.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Tumeken%27s_shadow"
+  },
+  {
+    "name": "Scythe of vitur",
+    "itemIds": [22325],
+    "description": "Hits up to 3 targets in a line at once: 100% damage to the first, 50% to the second, 25% to the third.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Scythe_of_vitur"
+  },
+  {
+    "name": "Voidwaker",
+    "itemIds": [27690],
+    "description": "Special attack hits twice with a guaranteed minimum-damage hit plus a bonus damage roll based on the target's current HP.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Voidwaker"
+  },
+  {
+    "name": "Inquisitor's mace",
+    "itemIds": [24417],
+    "description": "Crush accuracy and damage boosted further per piece of Inquisitor's armour worn, up to +1% per piece on top of normal set bonuses.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Inquisitor%27s_mace"
+  },
+  {
+    "name": "Keris partisan",
+    "itemIds": [25865],
+    "description": "Chance to deal triple damage against Kalphite-type monsters (including the Kalphite Queen).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Keris_partisan"
+  },
+  {
+    "name": "Blade of saeldor",
+    "itemIds": [23995],
+    "description": "Damage scales with target's defence: deals bonus damage against lower-defence targets compared to a raw stat comparison would suggest.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Blade_of_saeldor"
+  },
+  {
+    "name": "Osmumten's fang",
+    "itemIds": [26219],
+    "description": "With stab attacks, re-rolls a failed accuracy check once; on any successful hit, damage is always rolled between 15% and 85% of max hit instead of the usual 0-100%, making it far more consistent (though not higher DPS) than raw stats suggest.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Osmumten%27s_fang"
+  },
+  {
+    "name": "Venator bow",
+    "itemIds": [27612],
+    "description": "When charged with ancient essence, attacks in multi-combat areas can ricochet to up to 2 additional nearby targets, each rolling accuracy independently and dealing up to 2/3 of the original max hit.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Venator_bow"
+  },
+  {
+    "name": "Webweaver bow",
+    "itemIds": [27652],
+    "description": "+50% Ranged accuracy and damage against any NPC while in the Wilderness (identical mechanic to Craw's bow, on an upgraded base weapon); requires revenant ether as ammo.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Webweaver_bow"
+  },
+  {
+    "name": "Sanguinesti staff",
+    "itemIds": [22481],
+    "description": "1 in 5 chance on a successful hit with its built-in spell to deal 8 additional damage and heal the wielder for half the total damage dealt.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Sanguinesti_staff"
+  },
+  {
+    "name": "Dinh's bulwark",
+    "itemIds": [21015],
+    "description": "Two combat-style-dependent passives: Block style prevents attacking but reduces all incoming damage by 20% (extra vs. Crush, none in PvP), with an 8-tick delay after switching; Pummel style lets you attack and grants a strength bonus that scales with your average Defence bonus (kicks in above 314).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dinh%27s_bulwark"
+  }
+]

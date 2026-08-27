@@ -1,0 +1,44 @@
+[
+  {
+    "name": "Twisted bow",
+    "itemIds": [20997],
+    "description": "Accuracy and max hit scale up with the target's Magic level, up to +140% accuracy and +250% damage vs. very high Magic targets; reduced vs. low-Magic targets.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Twisted_bow"
+  },
+  {
+    "name": "Dragon hunter lance",
+    "itemIds": [22978],
+    "description": "+20% accuracy and +25% damage against Draconic-type monsters when wielded.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_lance"
+  },
+  {
+    "name": "Dragon hunter crossbow",
+    "itemIds": [21012],
+    "description": "+25% accuracy and +30% damage against Draconic-type monsters; additional passive damage boost at close range.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_crossbow"
+  },
+  {
+    "name": "Craw's bow",
+    "itemIds": [22550],
+    "description": "+50% accuracy and damage while inside the Wilderness, decaying over time unless recharged with Wilderness Sword/Bow/Wand shards.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Craw%27s_bow"
+  },
+  {
+    "name": "Tumeken's shadow",
+    "itemIds": [27275],
+    "description": "Triples the base Magic damage bonus of most staves/wands and quadruples it in the Ancient's Guild; also multiplies spell damage by 3x outside of raids.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Tumeken%27s_shadow"
+  },
+  {
+    "name": "Scythe of vitur",
+    "itemIds": [22325],
+    "description": "Hits up to 3 targets at once, dealing 100% damage to the first, 50% to the second, and 25% to the third.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Scythe_of_vitur"
+  },
+  {
+    "name": "Voidwaker",
+    "itemIds": [27690],
+    "description": "Special attack hits twice (magic-based) for a guaranteed minimum-damage hit plus a bonus damage roll based on target's current HP.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Voidwaker"
+  }
+]
