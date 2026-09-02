@@ -6,6 +6,10 @@ A RuneLite plugin that appends hidden or passive item effects to the in-game exa
 
 Old School RuneScape often has equipment that grants useful bonuses without clearly explaining them in the examine text. Better Item Examine fills that gap by showing the relevant passive effect when an item is examined.
 
+## Visually 
+
+![Example](img.png)
+
 ## Features
 
 - Appends passive effect text to the standard item examine message
@@ -14,7 +18,14 @@ Old School RuneScape often has equipment that grants useful bonuses without clea
 - Can be filtered to equippable items only
 - Uses a data-driven repository so new item entries can be added without touching Java logic
 
+
+
 ## How it works
+
+Examine an item ingame and the plugin will check if the item has a matching passive effect entry. 
+If it does, the plugin appends the effect text to the examine message.
+
+
 
 ```text
 MenuOptionClicked (Examine) --> stores item ID --> ChatMessage (ITEM_EXAMINE)
@@ -31,7 +42,7 @@ Key parts of the project:
 - `BetterItemExaminePlugin`: listens for the item examine flow and wires the plugin behavior together.
 - `PassiveEffectRepository`: loads passive effect data at startup and resolves item IDs to matching entries.
 - `PassiveEffect`: domain model for each item effect, including name, item IDs, description, and wiki link.
-- `src/main/resources/com/betteritemexamine/data/`: JSON data files for categories such as weapons, armour, ammunition, and jewellery.
+- `src/main/resources/com/betteritemexamine/data/`: JSON data files for categories such as weapons, armor, ammunition, and jewelry.
 - `BetterItemExamineConfig`: user-facing settings for display behavior and filtering.
 
 ## Project structure

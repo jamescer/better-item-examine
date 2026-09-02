@@ -40,5 +40,35 @@
     "itemIds": [27690],
     "description": "Special attack hits twice (magic-based) for a guaranteed minimum-damage hit plus a bonus damage roll based on target's current HP.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Voidwaker"
+  },
+  {
+    "name": "Phoenix necklace",
+    "itemIds": [11090],
+    "description": "At or below 20% HP, restores 30% of your max hitpoints and clears queued damage before the heal triggers.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Phoenix_necklace"
+  },
+  {
+    "name": "Elysian spirit shield",
+    "itemIds": [12817],
+    "description": "70% chance to reduce incoming damage by 25% on any hit, excluding dragonfire and poison damage.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Elysian_spirit_shield"
+  },
+  {
+    "name": "Salve amulet",
+    "itemIds": [4081],
+    "description": "+16.67% melee accuracy and damage against undead targets, matching the common 1/6 strength bonus used by the item's tooltip and wiki references.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet"
+  },
+  {
+    "name": "Arclight",
+    "itemIds": [19675],
+    "description": "+70% accuracy and +70% damage against demons, while also counting as a silver weapon for relevant monster interactions.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Arclight"
+  },
+  {
+    "name": "Emberlight",
+    "itemIds": [29589],
+    "description": "+70% accuracy and +70% damage against demons; like Arclight, but permanent and without charge degradation.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Emberlight"
   }
 ]

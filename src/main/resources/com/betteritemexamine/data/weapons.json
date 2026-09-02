@@ -14,7 +14,7 @@
   {
     "name": "Dragon hunter crossbow",
     "itemIds": [21012],
-    "description": "+25% accuracy and +30% damage against Draconic-type monsters; extra passive damage boost at close range.",
+    "description": "+25% accuracy and +30% damage against Draconic-type monsters.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_crossbow"
   },
   {
@@ -88,5 +88,29 @@
     "itemIds": [21015],
     "description": "Two combat-style-dependent passives: Block style prevents attacking but reduces all incoming damage by 20% (extra vs. Crush, none in PvP), with an 8-tick delay after switching; Pummel style lets you attack and grants a strength bonus that scales with your average Defence bonus (kicks in above 314).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dinh%27s_bulwark"
+  },
+  {
+    "name": "Elysian spirit shield",
+    "itemIds": [12817],
+    "description": "70% chance to reduce incoming damage by 25% on any hit, excluding dragonfire and poison damage.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Elysian_spirit_shield"
+  },
+  {
+    "name": "Arclight",
+    "itemIds": [19675],
+    "description": "+70% accuracy and +70% damage against demons, while also counting as a silver weapon for relevant monster interactions.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Arclight"
+  },
+  {
+    "name": "Emberlight",
+    "itemIds": [29589],
+    "description": "+70% accuracy and +70% damage against demons; like Arclight, but permanent and without charge degradation.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Emberlight"
+  },
+  {
+    "name": "Granite hammer",
+    "itemIds": [21742],
+    "description": "+30% Golembane effect, dealing +30% extra damage and accuracy against all golem-type creatures.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Granite_hammer"
   }
 ]

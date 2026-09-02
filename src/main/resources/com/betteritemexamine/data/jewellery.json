@@ -22,5 +22,17 @@
     "itemIds": [28307],
     "description": "+5% Magic damage passively (12.5% when a staff normally granting Magic damage is wielded), not shown anywhere in the equipment stats panel.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Magus_ring"
+  },
+  {
+    "name": "Phoenix necklace",
+    "itemIds": [11090],
+    "description": "At or below 20% HP, restores 30% of your max hitpoints and clears all queued damage from future hits before the heal triggers.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Phoenix_necklace"
+  },
+  {
+    "name": "Salve amulet",
+    "itemIds": [4081],
+    "description": "+16.67% melee accuracy and damage against undead targets, matching the common 1/6 strength bonus used by the item's tooltip and wiki references.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet"
   }
 ]
