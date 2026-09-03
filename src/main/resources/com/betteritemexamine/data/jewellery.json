@@ -34,5 +34,11 @@
     "itemIds": [4081],
     "description": "+16.67% melee accuracy and damage against undead targets, matching the common 1/6 strength bonus used by the item's tooltip and wiki references.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet"
+  },
+  {
+    "name": "Amulet of the Damned",
+    "itemIds": [12851, 12853],
+    "description": "Adds Barrows-set effects when worn with a full Barrows set: Dharok's — 25% chance to recoil 15% of damage taken; this can stack with Vengeance and recoil effects. Verac's — +7 Prayer bonus on top of the amulet's +3. Torag's — Defence is increased by 1% for every missing Hitpoint, stacking with temporary boosts. Guthan's — heals up to 10 Hitpoints above your base Hitpoints level. Karil's — 25% chance to hit twice with one attack; the second hit deals half the damage of the first. Ahrim's — Ahrim's staff auto-casts Ancient Magicks and gives a 25% chance for combat spells to deal 30% more damage.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Amulet_of_the_Damned"
   }
 ]
