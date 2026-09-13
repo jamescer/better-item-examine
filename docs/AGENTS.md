@@ -31,7 +31,7 @@
 
 - Use OkHttp for all HTTP requests. `@Inject OkHttpClient` to get the HTTP client. Do not use `HttpURLConnection`, `java.net.http.HttpClient`, or Apache HttpClient.
 - Use `@Inject Gson` to get a Gson instead, never create your own from scratch. You can use `.newBuilder()` to create one derived from the base `Gson.`
-- Do not add transitive dependencies from `runelite-client` directly to `build.gradle`, such as gson, guice, or okhttp.
+- Do not add transitive dependencies from `runelite-client` directly to `../build.gradle`, such as gson, guice, or okhttp.
 - Never execute okhttp calls on the client thread. Prefer using `enqueue()` which places the request on the okhttp threadpool.
 
 ## File I/O
@@ -50,10 +50,10 @@
 
 ## Plugin Setup & Packaging
 
-- Rename everything from the template. Do not leave `com.example`, `ExamplePlugin`, `ExampleConfig`, or `example` as the config group. Rename the package path, class names, config group, `build.gradle` group, `settings.gradle` project name, and `runelite-plugin.properties`.
+- Rename everything from the template. Do not leave `com.example`, `ExamplePlugin`, `ExampleConfig`, or `example` as the config group. Rename the package path, class names, config group, `../build.gradle` group, `../settings.gradle` project name, and `../runelite-plugin.properties`.
 - Do not include a `META-INF/services/net.runelite.client.plugins.Plugin` file.
 - Do not commit build artifacts — no `.class` files, `out/` directories, or `.tmp` directories.
-- `build.gradle` must target Java 11** and match the structure of the example-plugin template.
+- `../build.gradle` must target Java 11** and match the structure of the example-plugin template.
 - Retain a permissive license, such as BSD-2.
 
 ## Resources & Assets
