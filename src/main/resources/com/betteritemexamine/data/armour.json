@@ -40,5 +40,83 @@
     "itemIds": [4732, 4734, 4736, 4738],
     "description": "Chance to lower the target's Agility level on a successful hit when the full set is worn with a crossbow.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Karil%27s_armour_set"
+  },
+  {
+    "name": "Guthan's armour (set)",
+    "itemIds": [4724, 4726, 4728, 4730],
+    "description": "Full set + Guthan's warspear: successful melee attacks have a 25% chance to heal the wielder HP equal to the damage dealt - a pure gamble mechanic not shown anywhere on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Guthan%27s_armour"
+  },
+  {
+    "name": "Torag's armour (set)",
+    "itemIds": [4745, 4747, 4749, 4751],
+    "description": "Full set + Torag's hammers: successful melee hits have a 25% chance to reduce the target's run energy by 20%. Only functions against players in PvP/Wilderness - no effect on NPCs, and not shown on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Torag%27s_armour"
+  },
+  {
+    "name": "Ahrim's armour (set)",
+    "itemIds": [4708, 4710, 4712, 4714],
+    "description": "Full set + Ahrim's staff: successful magic attacks have a 25% chance to lower the target's Strength level by 5 (does not trigger on a splash) - a proc invisible in the interface.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ahrim%27s_armour"
+  },
+  {
+    "name": "Serpentine helm",
+    "itemIds": [12929, 12931],
+    "description": "Grants full immunity to poison and venom while charged (does not cure existing poison). Also gives melee/ranged/magic hits on NPCs an unlisted chance to envenom them: 16.7% with a non-poisoned weapon, 50% with a poisoned weapon, 100% with the toxic blowpipe or trident of the swamp.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Serpentine_helm"
+  },
+  {
+    "name": "Slayer helmet / Slayer helmet (i)",
+    "itemIds": [11864, 11865],
+    "description": "On an assigned Slayer task, grants a hidden +16.67% Attack and Strength boost (melee); the imbued version also grants +15% Ranged and Magic accuracy/damage on task. Also carries hidden component effects: blocks Nex's virus infection, counts as warm clothing for Wintertodt, negates Dust/Smoke devil stat drain, and deafens Banshee screams.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Slayer_helmet"
+  },
+  {
+    "name": "Ava's assembler",
+    "itemIds": [22109, 21914, 24222],
+    "description": "Beyond its displayed +4 Ranged attack / +2 Ranged Strength, it silently returns fired ammunition to the quiver at an 80% recovery rate - an invisible ammo-conservation mechanic not shown on the stats interface.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ava%27s_assembler"
+  },
+  {
+    "name": "Spectral spirit shield",
+    "itemIds": [12821],
+    "description": "Passively halves the effect of most enemy prayer-draining attacks outside of PvP (e.g. Cerberus's souls, K'ril Tsutsaroth's smash, Nex, Barrows brothers), a reduction not listed on the stats interface.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Spectral_spirit_shield"
+  },
+  {
+    "name": "Fire cape",
+    "itemIds": [6570],
+    "description": "Grants the hidden 'fiery' attribute, causing extra PvP damage taken from Pearl bolts (e)/Pearl dragon bolts (e), and separately counts as warm clothing for Wintertodt. It does not grant fire or lava immunity, despite popular belief.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Fire_cape"
+  },
+  {
+    "name": "Crystal armour (set)",
+    "itemIds": [23971, 23975, 23979],
+    "description": "Each piece silently boosts crystal bow/Bow of Faerdhinen damage and accuracy (helm 2.5%/5%, legs 5%/10%, body 7.5%/15%; +15%/+30% at full set) - a bonus applied invisibly, not reflected in the bow's own stats.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Crystal_equipment"
+  },
+  {
+    "name": "Elite void knight equipment (top & robe)",
+    "itemIds": [13072, 13073],
+    "description": "Beyond the shared Void Knight set-effect bonuses, adds a further hidden +2.5% Ranged damage and +5% Magic damage on top of the base void set bonuses - only the +3 prayer per piece is shown on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Elite_Void_Knight_equipment"
+  },
+  {
+    "name": "Blood moon armour (set)",
+    "itemIds": [29028, 29022, 29025],
+    "description": "Full set + dual macuahuitl: successful hits have a 33% chance to attack one tick early (the 'Bloodrager' set effect), not shown on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dual_macuahuitl"
+  },
+  {
+    "name": "Eclipse moon armour (set)",
+    "itemIds": [29010, 29004, 29007],
+    "description": "Full set + Eclipse atlatl: successful hits have a 20% chance to inflict a stacking burn (10 damage over 40 ticks, up to 5 stacks), not shown on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Eclipse_atlatl"
+  },
+  {
+    "name": "Virtus robes (set)",
+    "itemIds": [26241, 26243, 26245],
+    "description": "The displayed equipment stat shows a flat 2% magic damage bonus per piece (6% total), but each piece silently grants 5% instead (15% total) specifically when casting Ancient Magicks combat spells - the higher bonus isn't shown on the gear screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Virtus_robes"
   }
 ]

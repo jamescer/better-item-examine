@@ -22,5 +22,47 @@
     "itemIds": [9243],
     "description": "Chance for a guaranteed critical-style bonus hit dealing extra damage, ignoring some defensive bonuses.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Diamond_bolts_(e)"
+  },
+  {
+    "name": "Onyx bolts (e)",
+    "itemIds": [9245],
+    "description": "11% chance in PvM (10% in PvP) to deal 20% extra damage and heal the attacker for 25% of the damage dealt; does not work on undead targets.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Onyx_bolts_(e)"
+  },
+  {
+    "name": "Opal bolts (e)",
+    "itemIds": [9236],
+    "description": "5% chance to deal bonus damage equal to visible Ranged level / 10, regardless of whether the attack itself hits.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Opal_bolts_(e)"
+  },
+  {
+    "name": "Pearl bolts (e)",
+    "itemIds": [9238],
+    "description": "6% chance to deal bonus damage equal to 1/20 of Ranged level (1/15 vs. fiery targets), even on a missed attack.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Pearl_bolts_(e)"
+  },
+  {
+    "name": "Emerald bolts (e)",
+    "itemIds": [9241],
+    "description": "55% chance on a successful hit to poison for 5 damage, totaling roughly 75 damage over 7.5 minutes; the poison chance is not boosted by a Serpentine helm.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Emerald_bolts_(e)"
+  },
+  {
+    "name": "Sapphire bolts (e)",
+    "itemIds": [9240],
+    "description": "In PvM, 25% chance to drain 1/10 of the target's Ranged level from its Prayer points and restore 1/8 of that amount to the attacker.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Sapphire_bolts_(e)"
+  },
+  {
+    "name": "Jade bolts (e)",
+    "itemIds": [9237],
+    "description": "6% chance to knock the target down for 8 ticks, resisted by an Agility roll; fully blocked by Protect from Magic.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Jade_bolts_(e)"
+  },
+  {
+    "name": "Dragonstone bolts (e)",
+    "itemIds": [9244],
+    "description": "6% chance to deal bonus dragonfire damage equal to 20% of visible Ranged level; fully blocked by dragonfire immunity or Protect from Magic.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragonstone_bolts_(e)"
   }
 ]

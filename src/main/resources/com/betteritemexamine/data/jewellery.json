@@ -40,5 +40,59 @@
     "itemIds": [12851, 12853],
     "description": "Adds Barrows-set effects when worn with a full Barrows set: Dharok's — 25% chance to recoil 15% of damage taken; this can stack with Vengeance and recoil effects. Verac's — +7 Prayer bonus on top of the amulet's +3. Torag's — Defence is increased by 1% for every missing Hitpoint, stacking with temporary boosts. Guthan's — heals up to 10 Hitpoints above your base Hitpoints level. Karil's — 25% chance to hit twice with one attack; the second hit deals half the damage of the first. Ahrim's — Ahrim's staff auto-casts Ancient Magicks and gives a 25% chance for combat spells to deal 30% more damage.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Amulet_of_the_Damned"
+  },
+  {
+    "name": "Amulet of avarice",
+    "itemIds": [22557],
+    "description": "Same base bonuses as an amulet of glory, plus a hidden +20% accuracy and damage bonus against Revenants and roughly doubled unique drop rates while skulled in the Revenant Caves, Wilderness Slayer Cave, and Chaos Temple - none of it shown on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Amulet_of_avarice"
+  },
+  {
+    "name": "Amulet of blood fury",
+    "itemIds": [24780],
+    "description": "On a successful melee hit, carries an unlisted 20% chance to heal the wielder 30% of the damage dealt, consuming one of its charges per hit regardless of whether it procs.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Amulet_of_blood_fury"
+  },
+  {
+    "name": "Ring of the gods (i)",
+    "itemIds": [13202],
+    "description": "The imbued version silently grants the passive effect of a holy wrench (restores extra Prayer points per dose of Prayer potion) on top of its +8 Prayer bonus - the wrench effect itself isn't shown on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_the_gods_(i)"
+  },
+  {
+    "name": "Ring of recoil",
+    "itemIds": [2550],
+    "description": "Reflects floor(10% of damage taken) + 1 back at the attacker, consuming one of 40 charges per proc - the exact formula isn't stated in-game, only a remaining charge count.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_recoil"
+  },
+  {
+    "name": "Ring of wealth (imbued)",
+    "itemIds": [11980],
+    "description": "While in the Wilderness, silently doubles the chance of receiving a clue scroll from both monster drops and skilling, with no in-game indication of the multiplier.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_wealth"
+  },
+  {
+    "name": "Lightbearer",
+    "itemIds": [25975],
+    "description": "Doubles special attack energy regeneration rate (10% every 15 seconds instead of the standard 30 seconds) - this exact number appears nowhere in the item's stats.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Lightbearer"
+  },
+  {
+    "name": "Salve amulet (e)",
+    "itemIds": [10588],
+    "description": "Boosts the base Salve amulet's undead bonus from 16.67% to 20% melee Attack and Strength. Does not stack with a black mask/Slayer helmet but does stack with Void Knight equipment.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet_(e)"
+  },
+  {
+    "name": "Salve amulet (ei)",
+    "itemIds": [12018],
+    "description": "Extends the Salve amulet (e)'s 20% bonus to also grant 20% accuracy and damage in Ranged and Magic against undead monsters.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet(ei)"
+  },
+  {
+    "name": "Efaritay's aid",
+    "itemIds": [21140],
+    "description": "Grants a hidden +10% damage and +15% accuracy bonus against vampyric creatures, stacking with a black mask (i)/Slayer helmet (i). Against tier-2 vampyres it also lets non-silver weapons deal half damage. Charge-based (200 charges, one consumed per successful hit).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Efaritay%27s_aid"
   }
 ]
