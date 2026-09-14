@@ -14,7 +14,7 @@
   {
     "name": "Void knight equipment (set)",
     "itemIds": [8839, 8840, 8842],
-    "description": "+10% accuracy and damage in the matching combat style (melee/ranged/magic) when the full set + correct helm is worn; elite void adds further ranged/magic damage.",
+    "description": "+10% accuracy and damage in melee (with the void melee helm) or ranged (with the void ranger helm) when the full set is worn; with the void mage helm it instead grants a much larger +45% magic accuracy with no magic damage bonus at all - none of these figures are shown on the stats screen. Elite void adds further ranged/magic damage on top.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Void_Knight_equipment"
   },
   {
@@ -118,5 +118,35 @@
     "itemIds": [26241, 26243, 26245],
     "description": "The displayed equipment stat shows a flat 2% magic damage bonus per piece (6% total), but each piece silently grants 5% instead (15% total) specifically when casting Ancient Magicks combat spells - the higher bonus isn't shown on the gear screen.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Virtus_robes"
+  },
+  {
+    "name": "Bloodbark armour (set)",
+    "itemIds": [25413, 25404, 25416, 25407, 25410],
+    "description": "Each of the 5 pieces (helm/body/legs/gauntlets/boots) adds +2% to how much Blood spells heal the caster, for +10% total at a full set on top of the spells' normal 25% heal (35% overall) - none of this is shown on the equipment stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Bloodbark_armour"
+  },
+  {
+    "name": "Statius's equipment (bh) (set)",
+    "itemIds": [27833, 27834, 27835],
+    "description": "Full charged set (full helm + platebody + platelegs) grants +15% melee special attack accuracy, a bonus not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas (Castle Wars, Clan Wars, Soul Wars, TzHaar Fight Pit, PoH/Clan Hall combat rings, Daimon's Crater).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Statius%27s_equipment"
+  },
+  {
+    "name": "Vesta's equipment (bh) (set)",
+    "itemIds": [27831, 27832],
+    "description": "Full charged set (chainbody + plateskirt) grants +15% melee special attack accuracy, a bonus not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Vesta%27s_equipment"
+  },
+  {
+    "name": "Morrigan's equipment (bh) (set)",
+    "itemIds": [27836, 27837, 27838],
+    "description": "Full charged set (coif + leather body + leather chaps) grants +15% ranged special attack accuracy, a bonus not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Morrigan%27s_equipment"
+  },
+  {
+    "name": "Zuriel's equipment (bh) (set)",
+    "itemIds": [27839, 27840, 27841],
+    "description": "Full charged set (hood + robe top + robe bottom) grants +25% magic accuracy covering both spells and special attacks - buffed from a 15%, specials-only bonus on 29 January 2025. Not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Zuriel%27s_equipment"
   }
 ]

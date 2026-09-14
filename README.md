@@ -1,31 +1,79 @@
-# Better Item Examine
+<p align="center">
+  <img src="img.png" alt="Better Item Examine example" width="500"/>
+</p>
 
-A RuneLite plugin that appends hidden or passive item effects to the in-game examine text. It helps surface mechanics that are documented on the OSRS Wiki but not explained anywhere in-game, such as Twisted Bow damage scaling, Dragon Hunter bonuses, and other passive item effects.
+<p align="center">
+  <a href="https://runelite.net/plugin-hub/show/better-item-examine">
+    <img src="https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/rank/plugin/better-item-examine" alt="Plugin Rank"/>
+  </a>
+  <a href="https://runelite.net/plugin-hub/show/better-item-examine">
+    <img src="https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/installs/plugin/better-item-examine" alt="Install Count"/>
+  </a>
+  <a href="LICENSE">
+    <img src="https://img.shields.io/github/license/jamescer/better-item-examine" alt="License"/>
+  </a>
+</p>
 
-## Why this plugin exists
-
-Old School RuneScape often has equipment that grants useful bonuses without clearly explaining them in the examine text. Better Item Examine fills that gap by showing the relevant passive effect when an item is examined.
-
-## Visually 
-
-![Example](img.png)
+Old School RuneScape is full of gear with real combat effects that the game never tells you
+about - the Twisted bow's Magic-scaling accuracy, the Dragon hunter lance's Draconic bonus, a
+full Barrows set's proc-based heal. **Better Item Examine** fills in the gap: examine an item
+and, if it has a hidden or passive effect, the plugin appends it right onto the examine text.
 
 ## Features
 
-- Appends passive effect text to the standard item examine message
-- Supports a configurable display style, including appended text or a separate message
-- Lets users color-highlight passive effect text for readability
-- Can be filtered to equippable items only
-- Uses a data-driven repository so new item entries can be added without touching Java logic
+- Appends hidden/passive effect text onto the item's normal examine message
+- Covers weapons, armour, jewellery, and ammunition - hundreds of items and counting
+- Configurable display: append to the examine line, or send as a separate chat message
+- Optional colour highlighting so the added text stands out from the base examine text
+- Can be filtered to equippable items only, if you don't want it triggering on things like
+  charged jewellery or ammunition
+- Every entry links back to its OSRS Wiki source, so you can read more if you want the details
 
+## Configuration
 
+| Setting | Description |
+| --- | --- |
+| **Append to examine text** | On: the passive effect is appended directly onto the item's examine chat line. Off: it's sent as its own separate game message. |
+| **Highlight color** | The colour used to highlight the passive effect text in chat. |
+| **Only equippable items** | On: only shows passive info for items you can wear/wield. Off: also covers non-wearable passive-effect items (e.g. certain rings, tools). |
+
+## Installation
+
+Better Item Examine is available on the RuneLite Plugin Hub. In the RuneLite client, open the
+Plugin Hub (the plug icon in the sidebar), search for **Better Item Examine**, and install it.
+See the [RuneLite wiki](https://github.com/runelite/runelite/wiki/Information-about-the-Plugin-Hub)
+for more on installing Plugin Hub plugins in general.
+
+## Contributing
+
+The most valuable contribution to this plugin is **more items**. If you know an item with a
+hidden effect that isn't covered yet, you don't need to touch any Java code - just add an
+entry to the matching JSON file under
+[`src/main/resources/com/betteritemexamine/data/`](src/main/resources/com/betteritemexamine/data/):
+
+```json
+{
+  "name": "Item name",
+  "itemIds": [12345, 67890],
+  "description": "Short, factual description of what the passive actually does.",
+  "wikiUrl": "https://oldschool.runescape.wiki/w/Item_name"
+}
+```
+
+A few guidelines:
+
+- Include every relevant item variant (charged/uncharged, broken/locked, ornament kits) -
+  verify each ID against the item's own OSRS Wiki infobox, don't guess from memory.
+- Only include effects that are **not** already shown on the item's stats/examine screen.
+- Keep descriptions terse and factual, written for someone who already knows what the item is.
+- Run `./gradlew test --tests "com.betteritemexamine.PassiveEffectDataValidationTest"` after
+  editing - it checks for malformed JSON, missing fields, and item IDs claimed by two entries.
+
+See [`docs/REPO_CONTEXT.md`](docs/REPO_CONTEXT.md) for a fuller tour of how the plugin is put
+together, and [`docs/AGENTS.md`](docs/AGENTS.md) for general RuneLite plugin conventions used
+in this repo.
 
 ## How it works
-
-Examine an item ingame and the plugin will check if the item has a matching passive effect entry. 
-If it does, the plugin appends the effect text to the examine message.
-
-
 
 ```text
 MenuOptionClicked (Examine) --> stores item ID --> ChatMessage (ITEM_EXAMINE)
@@ -37,94 +85,11 @@ MenuOptionClicked (Examine) --> stores item ID --> ChatMessage (ITEM_EXAMINE)
                                  appends passive effect text
 ```
 
-Key parts of the project:
+- `BetterItemExaminePlugin` listens for the examine flow and wires everything together.
+- `PassiveEffectRepository` loads every data file at startup into an itemId -> effect map.
+- `PassiveEffect` is the data model: name, item IDs, description, wiki link.
+- `BetterItemExamineConfig` exposes the settings listed above.
 
-- `BetterItemExaminePlugin`: listens for the item examine flow and wires the plugin behavior together.
-- `PassiveEffectRepository`: loads passive effect data at startup and resolves item IDs to matching entries.
-- `PassiveEffect`: domain model for each item effect, including name, item IDs, description, and wiki link.
-- `src/main/resources/com/betteritemexamine/data/`: JSON data files for categories such as weapons, armor, ammunition, and jewelry.
-- `BetterItemExamineConfig`: user-facing settings for display behavior and filtering.
+## License
 
-## Project structure
-
-```text
-.
-├── build.gradle
-├── runelite-plugin.properties
-├── settings.gradle
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   └── resources/
-│   └── test/
-├── gradlew
-├── gradlew.bat
-└── README.md
-```
-
-## Getting started
-
-### Prerequisites
-
-- JDK 11+
-- Gradle wrapper included in the repo
-- A RuneLite development environment if you want to run the plugin in-game
-
-### Local validation
-
-```bash
-./gradlew test
-```
-
-This project includes validation tests that check the JSON data for malformed entries, missing fields, and duplicate item IDs before the plugin is used.
-
-### Running in RuneLite
-
-The repo is the plugin module itself, not a full RuneLite client checkout. To test it in-game, use one of these approaches:
-
-1. Open this folder as a Gradle project in IntelliJ IDEA and use the RuneLite plugin development workflow.
-2. Place the plugin module into a local RuneLite source checkout and run it from there.
-3. Build a plugin jar and use RuneLite's external/sideload workflow.
-
-For the most reliable development flow, follow the official RuneLite plugin guidelines and run the plugin from a local RuneLite checkout.
-
-## Adding or updating item data
-
-You usually do not need to change Java code to add a new item effect. Add a new entry to the relevant JSON file under `src/main/resources/com/betteritemexamine/data/`.
-
-Example:
-
-```json
-{
-  "name": "Item name",
-  "itemIds": [12345, 67890],
-  "description": "Short description of what the passive actually does.",
-  "wikiUrl": "https://oldschool.runescape.wiki/w/Item_name"
-}
-```
-
-Notes:
-
-- Prefer including all relevant variants of an item, such as charged, uncharged, ornamented, or degraded forms.
-- Keep descriptions concise so they read naturally in the examine line.
-- Verify item IDs against a trusted source before committing data, such as the OSRS Wiki infobox or RuneLite developer tools.
-- Run `./gradlew test` after changing data files.
-
-## Contributing
-
-Contributions are welcome, especially in the following areas:
-
-- Adding missing passive effects for under-documented items
-- Improving data accuracy and item coverage
-- Tuning the display and configuration behavior
-- Catching edge cases in the validation tests
-
-## Testing
-
-The main safety check is the automated validation suite, which verifies that data files are well-formed and item IDs are unique and usable. Run:
-
-```bash
-./gradlew test
-```
-
-This provides fast feedback without needing to launch the game client.
+Better Item Examine is licensed under the [BSD 2-Clause License](LICENSE).

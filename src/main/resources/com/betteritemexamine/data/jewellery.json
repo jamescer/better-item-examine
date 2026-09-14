@@ -84,6 +84,12 @@
     "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet_(e)"
   },
   {
+    "name": "Salve amulet(i)",
+    "itemIds": [12017],
+    "description": "Nightmare Zone/Soul Wars imbue of the base Salve amulet: keeps the 16.67% melee accuracy/damage bonus against undead and extends it to 16.67% Ranged and 15% Magic accuracy/damage. Does not stack with a black mask/Slayer helmet but does stack with Void Knight equipment.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Salve_amulet(i)"
+  },
+  {
     "name": "Salve amulet (ei)",
     "itemIds": [12018],
     "description": "Extends the Salve amulet (e)'s 20% bonus to also grant 20% accuracy and damage in Ranged and Magic against undead monsters.",
@@ -94,5 +100,23 @@
     "itemIds": [21140],
     "description": "Grants a hidden +10% damage and +15% accuracy bonus against vampyric creatures, stacking with a black mask (i)/Slayer helmet (i). Against tier-2 vampyres it also lets non-silver weapons deal half damage. Charge-based (200 charges, one consumed per successful hit).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Efaritay%27s_aid"
+  },
+  {
+    "name": "Berserker necklace",
+    "itemIds": [11128],
+    "description": "+20% melee damage while wielding an obsidian weapon (e.g. Toktz-xil-ak), stacking with the Obsidian armour set's own bonus, at the cost of an unlisted -10 attack and -20 defence bonus in every combat style - the trade-off isn't shown together anywhere on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Berserker_necklace"
+  },
+  {
+    "name": "Bracelet of ethereum",
+    "itemIds": [21816, 21817],
+    "description": "While charged with revenant ether, reduces damage taken from revenants by 75% (consuming 1 charge per attack received) and makes revenants passive toward the wearer - carries zero displayed combat bonuses on the equipment stats screen despite the mechanic.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Bracelet_of_ethereum"
+  },
+  {
+    "name": "Ring of suffering / Ring of suffering (i)",
+    "itemIds": [19550, 20655, 19710, 20657, 25246, 25248, 26761, 26762],
+    "description": "Functions as a built-in, rechargeable ring of recoil: reflects floor(10% of damage taken) + 1 back at the attacker, toggleable, and rechargeable with noted/unnoted rings of recoil (each giving 40 charges, up to 100,000 stored) - identical for both versions. Imbuing only doubles the ring's displayed defensive/prayer bonuses, not the hidden recoil formula itself, contrary to what many players assume.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_suffering"
   }
 ]

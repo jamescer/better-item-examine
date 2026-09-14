@@ -18,6 +18,18 @@
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_crossbow"
   },
   {
+    "name": "Dragon hunter wand",
+    "itemIds": [30070],
+    "description": "+75% accuracy and +40% damage against draconic creatures (wyrms, wyverns, hydras) when autocasting - raised from 50%/20% on 25 June 2025. Does not work against Elvarg or revenant dragons. Stacks multiplicatively with Slayer helm (i)/Elite void, but not with the salve amulet (i).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Dragon_hunter_wand"
+  },
+  {
+    "name": "Zombie axe",
+    "itemIds": [28810],
+    "description": "Carries a hidden +105 slash bonus that applies only when cutting Sarachnis's webs, always slashing them successfully like the Wilderness sword 1 (neither bonus is shown on the stats screen). Also silently counts as an axe for fixing bridges during Temple Trekking.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Zombie_axe"
+  },
+  {
     "name": "Craw's bow",
     "itemIds": [22550],
     "description": "+50% accuracy and damage while inside the Wilderness, decaying over time unless recharged with Wilderness Sword/Bow/Wand shards.",
@@ -385,8 +397,56 @@
   },
   {
     "name": "Bow of Faerdhinen / Crystal bow",
-    "itemIds": [25862, 25865, 23983, 23985, 24123],
+    "itemIds": [25862, 25865, 25867, 23983, 23985, 24123],
     "description": "Damage and accuracy are silently boosted by up to +15%/+30% when the full Crystal armour set is also worn, a bonus not reflected on the bow's own displayed stats.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Bow_of_faerdhinen"
+  },
+  {
+    "name": "Anti-dragon shield / Dragonfire shield / Dragonfire ward",
+    "itemIds": [1540, 11283, 11284, 22002, 22003],
+    "description": "Passively reduces the max hit of most dragon-breath attacks by roughly 80% (stacks with an antifire potion for full protection), separate from the DFS/ward's own chargeable special attack. The dragonfire ward additionally gives partial protection against a wyvern's icy breath - none of this is stated beyond the vague 'partial protection from dragonbreath attacks' examine text.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Anti-dragon_shield"
+  },
+  {
+    "name": "Ancient wyvern shield",
+    "itemIds": [21634],
+    "description": "Grants full immunity to the freezing effect of a wyvern's icy breath (Fossil Island wyverns and frost dragons) on top of reducing its damage; this immunity does not extend to other freeze effects such as the King Black Dragon's or Vorkath's.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ancient_wyvern_shield"
+  },
+  {
+    "name": "Trident of the swamp",
+    "itemIds": [12899, 12900],
+    "description": "Carries an unlisted 25% chance per successful hit to envenom the target, rising to 100% against monsters (not players) while a Serpentine helm is also worn - none of this is shown on the trident's stats.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Trident_of_the_swamp"
+  },
+  {
+    "name": "Tome of fire",
+    "itemIds": [20714, 20716],
+    "description": "While charged, boosts standard-spellbook fire spell damage by 10% against NPCs and 50% against players, multiplicatively with other Magic damage bonuses and consuming one charge per cast - none of this is shown on the tome's stats.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Tome_of_fire"
+  },
+  {
+    "name": "Tome of water",
+    "itemIds": [25574, 25576],
+    "description": "While charged, boosts standard-spellbook water spell accuracy and damage by 10% against NPCs and 20% against players, and boosts curse spell accuracy by 20% (stat-draining effectiveness by 50%) - none of this appears on the tome's stats.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Tome_of_water"
+  },
+  {
+    "name": "Ancient mace",
+    "itemIds": [11061],
+    "description": "Special attack 'Favour of the War God' hits through Protect from Melee and drains the target's prayer points by 100% of the damage dealt, restoring the wielder's own prayer by the same amount - can push current prayer above the maximum level, none of which is stated in the spec tooltip.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ancient_mace"
+  },
+  {
+    "name": "Sulphur blades",
+    "itemIds": [29084],
+    "description": "Each attack performs two independently-rolled hits instead of one, splitting the weapon's combined max hit roughly in half per hit (odd totals round one hit up, one down) - a dual-roll mechanic not shown anywhere on the stats screen.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Sulphur_blades"
+  },
+  {
+    "name": "Scorching bow",
+    "itemIds": [29591],
+    "description": "Grants an unlisted +30% accuracy and damage bonus against demons, stacking additively with a Slayer helmet's demon bonus - none of this is shown on the bow's displayed stats.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Scorching_bow"
   }
 ]
