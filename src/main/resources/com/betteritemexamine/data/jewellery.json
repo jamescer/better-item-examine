@@ -118,5 +118,11 @@
     "itemIds": [19550, 20655, 19710, 20657, 25246, 25248, 26761, 26762],
     "description": "Functions as a built-in, rechargeable ring of recoil: reflects floor(10% of damage taken) + 1 back at the attacker, toggleable, and rechargeable with noted/unnoted rings of recoil (each giving 40 charges, up to 100,000 stored) - identical for both versions. Imbuing only doubles the ring's displayed defensive/prayer bonuses, not the hidden recoil formula itself, contrary to what many players assume.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_suffering"
+  },
+  {
+    "name": "Ghommal's lucky penny",
+    "itemIds": [27544],
+    "description": "Not equipment - a one-time consumable Combat Achievements (Master tier) reward. Consuming it permanently unlocks an account-wide 5% chance to not use a charge when using charge-based jewellery/weapons; expanded on 2 September 2026 to also cover the amulet of blood fury. Nothing about this is shown anywhere in the interface once unlocked.",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Ghommal%27s_lucky_penny"
   }
 ]

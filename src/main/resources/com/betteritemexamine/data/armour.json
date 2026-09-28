@@ -148,5 +148,11 @@
     "itemIds": [27839, 27840, 27841],
     "description": "Full charged set (hood + robe top + robe bottom) grants +25% magic accuracy covering both spells and special attacks - buffed from a 15%, specials-only bonus on 29 January 2025. Not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Zuriel%27s_equipment"
+  },
+  {
+    "name": "Confliction gauntlets",
+    "itemIds": [31106],
+    "description": "Beyond the displayed +7% magic damage, missing a one-handed Magic attack (spell or weapon) grants the next attack against that same target a hidden double accuracy roll - not shown on the stats screen. Disabled for two-handed weapons, ice spells in PvP, and only applies to the primary target of multi-target spells. Made by upgrading a Tormented bracelet with Mokhaiotl cloth and demon tears (Doom of Mokhaiotl).",
+    "wikiUrl": "https://oldschool.runescape.wiki/w/Confliction_gauntlets"
   }
 ]
