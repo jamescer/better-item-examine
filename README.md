@@ -1,95 +1,97 @@
 <p align="center">
-  <img src="img.png" alt="Better Item Examine example" width="500"/>
+  <img src="img.png" alt="Better Item Examine showing hidden weapon effects in the chatbox" width="500"/>
 </p>
+
+<h1 align="center">Better Item Examine</h1>
+
+<p align="center"><b>Find out what your gear <i>actually</i> does - without alt-tabbing to the wiki.</b></p>
 
 <p align="center">
   <a href="https://runelite.net/plugin-hub/show/better-item-examine">
-    <img src="https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/rank/plugin/better-item-examine" alt="Plugin Rank"/>
-  </a>
-  <a href="https://runelite.net/plugin-hub/show/better-item-examine">
     <img src="https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/installs/plugin/better-item-examine" alt="Install Count"/>
   </a>
-  <a href="LICENSE">
-    <img src="https://img.shields.io/github/license/jamescer/better-item-examine" alt="License"/>
+  <a href="https://runelite.net/plugin-hub/show/better-item-examine">
+    <img src="https://img.shields.io/endpoint?url=https://api.runelite.net/pluginhub/shields/rank/plugin/better-item-examine" alt="Plugin Rank"/>
   </a>
 </p>
 
-Old School RuneScape is full of gear with real combat effects that the game never tells you
-about - the Twisted bow's Magic-scaling accuracy, the Dragon hunter lance's Draconic bonus, a
-full Barrows set's proc-based heal. **Better Item Examine** fills in the gap: examine an item
-and, if it has a hidden or passive effect, the plugin appends it right onto the examine text.
+---
 
-## Features
+## 🤔 Wait, my bow does *what*?
 
-- Appends hidden/passive effect text onto the item's normal examine message
-- Covers weapons, armour, jewellery, and ammunition - hundreds of items and counting
-- Configurable display: append to the examine line, or send as a separate chat message
-- Optional colour highlighting so the added text stands out from the base examine text
-- Can be filtered to equippable items only, if you don't want it triggering on things like
-  charged jewellery or ammunition
-- Every entry links back to its OSRS Wiki source, so you can read more if you want the details
+Loads of OSRS items have secret superpowers the game never mentions. Your Twisted bow hits harder the more Magic a boss
+has. Your Dragon hunter crossbow shreds dragons. Your Salve amulet quietly buffs you against the undead. None of that shows
+up in the stats screen, and the examine text just tells you the item looks nice.
 
-## Configuration
+**Better Item Examine fixes that.** Right-click any item, hit **Examine**, and if it has a hidden effect, you'll see it
+right there in your chatbox:
 
-| Setting | Description |
-| --- | --- |
-| **Append to examine text** | On: the passive effect is appended directly onto the item's examine chat line. Off: it's sent as its own separate game message. |
-| **Highlight color** | The colour used to highlight the passive effect text in chat. |
-| **Only equippable items** | On: only shows passive info for items you can wear/wield. Off: also covers non-wearable passive-effect items (e.g. certain rings, tools). |
+**😐 Without the plugin**
 
-## Installation
+<p align="center">
+  <img src="img_1.png" alt="Examining a Dragon hunter crossbow without the plugin: only the normal examine text" width="600"/>
+</p>
 
-Better Item Examine is available on the RuneLite Plugin Hub. In the RuneLite client, open the
-Plugin Hub (the plug icon in the sidebar), search for **Better Item Examine**, and install it.
-See the [RuneLite wiki](https://github.com/runelite/runelite/wiki/Information-about-the-Plugin-Hub)
-for more on installing Plugin Hub plugins in general.
+**🤩 With the plugin**
 
-## Contributing
+<p align="center">
+  <img src="img_2.png" alt="Examining a Dragon hunter crossbow with the plugin: the hidden +25% accuracy and +30% damage vs. dragons is shown" width="600"/>
+</p>
 
-The most valuable contribution to this plugin is **more items**. If you know an item with a
-hidden effect that isn't covered yet, you don't need to touch any Java code - just add an
-entry to the matching JSON file under
-[`src/main/resources/com/betteritemexamine/data/`](src/main/resources/com/betteritemexamine/data/):
+That's it. No overlays, no clutter, nothing to learn.
 
-```json
-{
-  "name": "Item name",
-  "itemIds": [12345, 67890],
-  "description": "Short, factual description of what the passive actually does.",
-  "wikiUrl": "https://oldschool.runescape.wiki/w/Item_name"
-}
-```
+## ✨ What you get
 
-A few guidelines:
+- 🗡️ **130+ items and sets covered** - weapons, armour, jewellery, and ammo, with more added regularly
+- 🛡️ **Set effects too** - Barrows, Void, Inquisitor's, Justiciar, Crystal, Moons, and more
+- 💎 **Enchanted bolt procs** - finally remember what Opal vs. Pearl vs. Dragonstone bolts do
+- 🎨 **Your colours** - pick whatever highlight colour you like so the effect pops out
+- 🤫 **Stays out of the way** - only kicks in when *you* examine something
 
-- Include every relevant item variant (charged/uncharged, broken/locked, ornament kits) -
-  verify each ID against the item's own OSRS Wiki infobox, don't guess from memory.
-- Only include effects that are **not** already shown on the item's stats/examine screen.
-- Keep descriptions terse and factual, written for someone who already knows what the item is.
-- Run `./gradlew test --tests "com.betteritemexamine.PassiveEffectDataValidationTest"` after
-  editing - it checks for malformed JSON, missing fields, and item IDs claimed by two entries.
+## 🚀 Getting started
 
-See [`docs/REPO_CONTEXT.md`](docs/REPO_CONTEXT.md) for a fuller tour of how the plugin is put
-together, and [`docs/AGENTS.md`](docs/AGENTS.md) for general RuneLite plugin conventions used
-in this repo.
+1. Open RuneLite and click the **Plugin Hub** button (the plug icon) in the sidebar
+2. Search for **Better Item Examine** and hit **Install**
+3. Right-click a cool item in your inventory, bank, or equipment and choose **Examine**
+4. Be enlightened ✨
 
-## How it works
+## ⚙️ Settings
 
-```text
-MenuOptionClicked (Examine) --> stores item ID --> ChatMessage (ITEM_EXAMINE)
-                                                   |
-                                                   v
-                             PassiveEffectRepository.getForItemId()
-                                                   |
-                                                   v
-                                 appends passive effect text
-```
+Find these by clicking the 🔧 wrench icon → **Better Item Examine**.
 
-- `BetterItemExaminePlugin` listens for the examine flow and wires everything together.
-- `PassiveEffectRepository` loads every data file at startup into an itemId -> effect map.
-- `PassiveEffect` is the data model: name, item IDs, description, wiki link.
-- `BetterItemExamineConfig` exposes the settings listed above.
+| Setting                    | What it does                                                                                                                      | Default    |
+|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------|------------|
+| **Append to examine text** | Tacks the effect onto the end of the normal examine message. Turn it off to get the effect as its own separate chat line instead. | On         |
+| **Highlight color**        | The colour of the hidden-effect text, so it stands out from the regular examine text.                                             | Light blue |
+| **Only equippable items**  | Only show effects for things you can wear or wield.                                                                               | Off        |
 
-## License
+## ❓ FAQ
 
-Better Item Examine is licensed under the [BSD 2-Clause License](LICENSE).
+**I examined an item and nothing extra showed up.**
+Either it doesn't have a hidden effect, or we haven't added it yet! If you know of one we're missing, let us know (see
+below).
+
+**Where does this info come from?**
+Every effect is researched from the [Old School RuneScape Wiki](https://oldschool.runescape.wiki/), and only effects
+that *aren't* already shown in-game are included.
+
+**Something looks wrong or out of date.**
+Jagex changes things sometimes! Please [open an issue](https://github.com/jamescer/better-item-examine/issues)
+and we'll fix it up.
+
+**Does this break any rules?**
+Nope. It only adds text to a chat message you already asked for - it doesn't click, play, or make any decisions for you.
+
+## 💬 Missing an item? Found a bug?
+
+[Open an issue on GitHub](https://github.com/jamescer/better-item-examine/issues) with the item name and what its effect
+is (a wiki link is a huge help). Suggestions are always welcome!
+
+Feeling handy? Adding an item is just a few lines of JSON - no coding required. Check out the
+[contributor guide](docs/REPO_CONTEXT.md) to get started.
+
+---
+
+<p align="center">
+  Made with ❤️ for the OSRS community · <a href="LICENSE">BSD 2-Clause License</a>
+</p>

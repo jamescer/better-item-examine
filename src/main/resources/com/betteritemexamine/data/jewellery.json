@@ -2,7 +2,7 @@
   {
     "name": "Berserker ring (i)",
     "itemIds": [11773],
-    "description": "+4% melee strength bonus, on top of the flat strength stat shown \u2014 the imbued version's bonus is easy to miss since it isn't broken out separately in the stats interface.",
+    "description": "+4% melee strength bonus, on top of the flat strength stat.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Berserker_ring_(i)"
   },
   {
@@ -20,7 +20,7 @@
   {
     "name": "Magus ring",
     "itemIds": [28307],
-    "description": "+5% Magic damage passively (12.5% when a staff normally granting Magic damage is wielded), not shown anywhere in the equipment stats panel.",
+    "description": "+5% Magic damage passively (12.5% when a staff normally granting Magic damage is wielded).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Magus_ring"
   },
   {
@@ -44,19 +44,19 @@
   {
     "name": "Amulet of avarice",
     "itemIds": [22557],
-    "description": "Same base bonuses as an amulet of glory, plus a hidden +20% accuracy and damage bonus against Revenants and roughly doubled unique drop rates while skulled in the Revenant Caves, Wilderness Slayer Cave, and Chaos Temple - none of it shown on the stats screen.",
+    "description": "Same base bonuses as an amulet of glory, plus +20% accuracy and damage bonus against Revenants and roughly doubled unique drop rates while skulled in the Revenant Caves, Wilderness Slayer Cave, and Chaos Temple.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Amulet_of_avarice"
   },
   {
     "name": "Amulet of blood fury",
     "itemIds": [24780],
-    "description": "On a successful melee hit, carries an unlisted 20% chance to heal the wielder 30% of the damage dealt, consuming one of its charges per hit regardless of whether it procs.",
+    "description": "On a successful melee hit, carries a 20% chance to heal the wielder 30% of the damage dealt, consuming one of its charges per hit regardless of whether it procs.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Amulet_of_blood_fury"
   },
   {
     "name": "Ring of the gods (i)",
     "itemIds": [13202],
-    "description": "The imbued version silently grants the passive effect of a holy wrench (restores extra Prayer points per dose of Prayer potion) on top of its +8 Prayer bonus - the wrench effect itself isn't shown on the stats screen.",
+    "description": "The imbued version grants the passive effect of a holy wrench (restores extra Prayer points per dose of Prayer potion) on top of its +8 Prayer bonus.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_the_gods_(i)"
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "Ring of wealth (imbued)",
     "itemIds": [11980],
-    "description": "While in the Wilderness, silently doubles the chance of receiving a clue scroll from both monster drops and skilling, with no in-game indication of the multiplier.",
+    "description": "While in the Wilderness, doubles the chance of receiving a clue scroll from both monster drops and skilling.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_wealth"
   },
   {
@@ -98,31 +98,31 @@
   {
     "name": "Efaritay's aid",
     "itemIds": [21140],
-    "description": "Grants a hidden +10% damage and +15% accuracy bonus against vampyric creatures, stacking with a black mask (i)/Slayer helmet (i). Against tier-2 vampyres it also lets non-silver weapons deal half damage. Charge-based (200 charges, one consumed per successful hit).",
+    "description": "Grants +10% damage and +15% accuracy bonus against vampyric creatures, stacking with a black mask (i)/Slayer helmet (i). Against tier-2 vampyres it also lets non-silver weapons deal half damage. Charge-based (200 charges, one consumed per successful hit).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Efaritay%27s_aid"
   },
   {
     "name": "Berserker necklace",
     "itemIds": [11128],
-    "description": "+20% melee damage while wielding an obsidian weapon (e.g. Toktz-xil-ak), stacking with the Obsidian armour set's own bonus, at the cost of an unlisted -10 attack and -20 defence bonus in every combat style - the trade-off isn't shown together anywhere on the stats screen.",
+    "description": "+20% melee damage while wielding an obsidian weapon (e.g. Toktz-xil-ak), stacking with the Obsidian armour set's own bonus, at the cost of -10 attack and -20 defence bonus in every combat style.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Berserker_necklace"
   },
   {
     "name": "Bracelet of ethereum",
     "itemIds": [21816, 21817],
-    "description": "While charged with revenant ether, reduces damage taken from revenants by 75% (consuming 1 charge per attack received) and makes revenants passive toward the wearer - carries zero displayed combat bonuses on the equipment stats screen despite the mechanic.",
+    "description": "While charged with revenant ether, reduces damage taken from revenants by 75% (consuming 1 charge per attack received) and makes revenants passive toward the wearer.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Bracelet_of_ethereum"
   },
   {
     "name": "Ring of suffering / Ring of suffering (i)",
     "itemIds": [19550, 20655, 19710, 20657, 25246, 25248, 26761, 26762],
-    "description": "Functions as a built-in, rechargeable ring of recoil: reflects floor(10% of damage taken) + 1 back at the attacker, toggleable, and rechargeable with noted/unnoted rings of recoil (each giving 40 charges, up to 100,000 stored) - identical for both versions. Imbuing only doubles the ring's displayed defensive/prayer bonuses, not the hidden recoil formula itself, contrary to what many players assume.",
+    "description": "Functions as a built-in, rechargeable ring of recoil: reflects floor(10% of damage taken) + 1 back at the attacker, toggleable, and rechargeable with noted/unnoted rings of recoil (each giving 40 charges, up to 100,000 stored) - identical for both versions. Imbuing only doubles the ring's defensive/prayer bonuses, not the recoil effect itself.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ring_of_suffering"
   },
   {
     "name": "Ghommal's lucky penny",
     "itemIds": [27544],
-    "description": "Not equipment - a one-time consumable Combat Achievements (Master tier) reward. Consuming it permanently unlocks an account-wide 5% chance to not use a charge when using charge-based jewellery/weapons; expanded on 2 September 2026 to also cover the amulet of blood fury. Nothing about this is shown anywhere in the interface once unlocked.",
+    "description": "Not equipment - a one-time consumable Combat Achievements (Master tier) reward. Consuming it permanently unlocks an account-wide 5% chance to not use a charge when using charge-based jewellery/weapons; expanded on 2 September 2026 to also cover the amulet of blood fury.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ghommal%27s_lucky_penny"
   }
 ]

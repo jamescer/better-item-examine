@@ -14,7 +14,7 @@
   {
     "name": "Void knight equipment (set)",
     "itemIds": [8839, 8840, 8842],
-    "description": "+10% accuracy and damage in melee (with the void melee helm) or ranged (with the void ranger helm) when the full set is worn; with the void mage helm it instead grants a much larger +45% magic accuracy with no magic damage bonus at all - none of these figures are shown on the stats screen. Elite void adds further ranged/magic damage on top.",
+    "description": "+10% accuracy and damage in melee (with the void melee helm) or ranged (with the void ranger helm) when the full set is worn; with the void mage helm it instead grants a much larger +45% magic accuracy with no magic damage bonus at all. Elite void adds further ranged/magic damage on top.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Void_Knight_equipment"
   },
   {
@@ -25,134 +25,134 @@
   },
   {
     "name": "Dharok's armour (set)",
-    "itemIds": [4716, 4718, 4720, 4722],
+    "itemIds": [4716, 4718, 4720, 4722, 4880, 4881, 4882, 4883, 4886, 4887, 4888, 4889, 4892, 4893, 4894, 4895, 4898, 4899, 4900, 4901],
     "description": "Damage increases the lower your current hitpoints are, up to nearly 3x max hit at 1 HP remaining, when the full set is worn.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dharok%27s_armour_set"
   },
   {
     "name": "Verac's armour (set)",
-    "itemIds": [4753, 4755, 4757, 4759],
+    "itemIds": [4753, 4755, 4757, 4759, 4976, 4977, 4978, 4979, 4982, 4983, 4984, 4985, 4988, 4989, 4990, 4991, 4994, 4995, 4996, 4997],
     "description": "Attacks have a chance to ignore the target's Defence and Prayer protection entirely when the full set is worn.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Verac%27s_armour_set"
   },
   {
     "name": "Karil's armour (set)",
-    "itemIds": [4732, 4734, 4736, 4738],
+    "itemIds": [4732, 4734, 4736, 4738, 4928, 4929, 4930, 4931, 4934, 4935, 4936, 4937, 4940, 4941, 4942, 4943, 4946, 4947, 4948, 4949],
     "description": "Chance to lower the target's Agility level on a successful hit when the full set is worn with a crossbow.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Karil%27s_armour_set"
   },
   {
     "name": "Guthan's armour (set)",
-    "itemIds": [4724, 4726, 4728, 4730],
-    "description": "Full set + Guthan's warspear: successful melee attacks have a 25% chance to heal the wielder HP equal to the damage dealt - a pure gamble mechanic not shown anywhere on the stats screen.",
+    "itemIds": [4724, 4726, 4728, 4730, 4904, 4905, 4906, 4907, 4910, 4911, 4912, 4913, 4916, 4917, 4918, 4919, 4922, 4923, 4924, 4925],
+    "description": "Full set + Guthan's warspear: successful melee attacks have a 25% chance to heal the wielder HP equal to the damage dealt.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Guthan%27s_armour"
   },
   {
     "name": "Torag's armour (set)",
-    "itemIds": [4745, 4747, 4749, 4751],
-    "description": "Full set + Torag's hammers: successful melee hits have a 25% chance to reduce the target's run energy by 20%. Only functions against players in PvP/Wilderness - no effect on NPCs, and not shown on the stats screen.",
+    "itemIds": [4745, 4747, 4749, 4751, 4952, 4953, 4954, 4955, 4958, 4959, 4960, 4961, 4964, 4965, 4966, 4967, 4970, 4971, 4972, 4973],
+    "description": "Full set + Torag's hammers: successful melee hits have a 25% chance to reduce the target's run energy by 20%. Only functions against players in PvP/Wilderness - no effect on NPCs.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Torag%27s_armour"
   },
   {
     "name": "Ahrim's armour (set)",
-    "itemIds": [4708, 4710, 4712, 4714],
-    "description": "Full set + Ahrim's staff: successful magic attacks have a 25% chance to lower the target's Strength level by 5 (does not trigger on a splash) - a proc invisible in the interface.",
+    "itemIds": [4708, 4710, 4712, 4714, 4856, 4857, 4858, 4859, 4862, 4863, 4864, 4865, 4868, 4869, 4870, 4871, 4874, 4875, 4876, 4877],
+    "description": "Full set + Ahrim's staff: successful magic attacks have a 25% chance to lower the target's Strength level by 5 (does not trigger on a splash).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ahrim%27s_armour"
   },
   {
     "name": "Serpentine helm",
     "itemIds": [12929, 12931],
-    "description": "Grants full immunity to poison and venom while charged (does not cure existing poison). Also gives melee/ranged/magic hits on NPCs an unlisted chance to envenom them: 16.7% with a non-poisoned weapon, 50% with a poisoned weapon, 100% with the toxic blowpipe or trident of the swamp.",
+    "description": "Grants full immunity to poison and venom while charged (does not cure existing poison). Also gives melee/ranged/magic hits on NPCs a chance to envenom them: 16.7% with a non-poisoned weapon, 50% with a poisoned weapon, 100% with the toxic blowpipe or trident of the swamp.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Serpentine_helm"
   },
   {
     "name": "Slayer helmet / Slayer helmet (i)",
     "itemIds": [11864, 11865],
-    "description": "On an assigned Slayer task, grants a hidden +16.67% Attack and Strength boost (melee); the imbued version also grants +15% Ranged and Magic accuracy/damage on task. Also carries hidden component effects: blocks Nex's virus infection, counts as warm clothing for Wintertodt, negates Dust/Smoke devil stat drain, and deafens Banshee screams.",
+    "description": "On an assigned Slayer task, grants +16.67% Attack and Strength boost (melee); the imbued version also grants +15% Ranged and Magic accuracy/damage on task. Also carries component effects: blocks Nex's virus infection, counts as warm clothing for Wintertodt, negates Dust/Smoke devil stat drain, and deafens Banshee screams.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Slayer_helmet"
   },
   {
     "name": "Ava's assembler",
     "itemIds": [22109, 21914, 24222],
-    "description": "Beyond its displayed +4 Ranged attack / +2 Ranged Strength, it silently returns fired ammunition to the quiver at an 80% recovery rate - an invisible ammo-conservation mechanic not shown on the stats interface.",
+    "description": "Beyond its displayed +4 Ranged attack / +2 Ranged Strength, it returns fired ammunition to the quiver at an 80% recovery rate.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ava%27s_assembler"
   },
   {
     "name": "Spectral spirit shield",
     "itemIds": [12821],
-    "description": "Passively halves the effect of most enemy prayer-draining attacks outside of PvP (e.g. Cerberus's souls, K'ril Tsutsaroth's smash, Nex, Barrows brothers), a reduction not listed on the stats interface.",
+    "description": "Passively halves the effect of most enemy prayer-draining attacks outside of PvP (e.g. Cerberus's souls, K'ril Tsutsaroth's smash, Nex, Barrows brothers).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Spectral_spirit_shield"
   },
   {
     "name": "Fire cape",
     "itemIds": [6570],
-    "description": "Grants the hidden 'fiery' attribute, causing extra PvP damage taken from Pearl bolts (e)/Pearl dragon bolts (e), and separately counts as warm clothing for Wintertodt. It does not grant fire or lava immunity, despite popular belief.",
+    "description": "Grants the 'fiery' attribute, causing extra PvP damage taken from Pearl bolts (e)/Pearl dragon bolts (e), and separately counts as warm clothing for Wintertodt.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Fire_cape"
   },
   {
     "name": "Crystal armour (set)",
     "itemIds": [23971, 23975, 23979],
-    "description": "Each piece silently boosts crystal bow/Bow of Faerdhinen damage and accuracy (helm 2.5%/5%, legs 5%/10%, body 7.5%/15%; +15%/+30% at full set) - a bonus applied invisibly, not reflected in the bow's own stats.",
+    "description": "Each piece boosts crystal bow/Bow of Faerdhinen damage and accuracy (helm 2.5%/5%, legs 5%/10%, body 7.5%/15%; +15%/+30% at full set).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Crystal_equipment"
   },
   {
     "name": "Elite void knight equipment (top & robe)",
     "itemIds": [13072, 13073],
-    "description": "Beyond the shared Void Knight set-effect bonuses, adds a further hidden +2.5% Ranged damage and +5% Magic damage on top of the base void set bonuses - only the +3 prayer per piece is shown on the stats screen.",
+    "description": "Beyond the shared Void Knight set-effect bonuses, adds a further +2.5% Ranged damage and +5% Magic damage on top of the base void set bonuses.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Elite_Void_Knight_equipment"
   },
   {
     "name": "Blood moon armour (set)",
     "itemIds": [29028, 29022, 29025],
-    "description": "Full set + dual macuahuitl: successful hits have a 33% chance to attack one tick early (the 'Bloodrager' set effect), not shown on the stats screen.",
+    "description": "Full set + dual macuahuitl: successful hits have a 33% chance to attack one tick early (the 'Bloodrager' set effect).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dual_macuahuitl"
   },
   {
     "name": "Eclipse moon armour (set)",
     "itemIds": [29010, 29004, 29007],
-    "description": "Full set + Eclipse atlatl: successful hits have a 20% chance to inflict a stacking burn (10 damage over 40 ticks, up to 5 stacks), not shown on the stats screen.",
+    "description": "Full set + Eclipse atlatl: successful hits have a 20% chance to inflict a stacking burn (10 damage over 40 ticks, up to 5 stacks).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Eclipse_atlatl"
   },
   {
     "name": "Virtus robes (set)",
     "itemIds": [26241, 26243, 26245],
-    "description": "The displayed equipment stat shows a flat 2% magic damage bonus per piece (6% total), but each piece silently grants 5% instead (15% total) specifically when casting Ancient Magicks combat spells - the higher bonus isn't shown on the gear screen.",
+    "description": "The displayed equipment stat shows a flat 2% magic damage bonus per piece (6% total), but each piece actually grants 5% instead (15% total) specifically when casting Ancient Magicks combat spells.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Virtus_robes"
   },
   {
     "name": "Bloodbark armour (set)",
     "itemIds": [25413, 25404, 25416, 25407, 25410],
-    "description": "Each of the 5 pieces (helm/body/legs/gauntlets/boots) adds +2% to how much Blood spells heal the caster, for +10% total at a full set on top of the spells' normal 25% heal (35% overall) - none of this is shown on the equipment stats screen.",
+    "description": "Each of the 5 pieces (helm/body/legs/gauntlets/boots) adds +2% to how much Blood spells heal the caster, for +10% total at a full set on top of the spells' normal 25% heal (35% overall).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Bloodbark_armour"
   },
   {
     "name": "Statius's equipment (bh) (set)",
     "itemIds": [27833, 27834, 27835],
-    "description": "Full charged set (full helm + platebody + platelegs) grants +15% melee special attack accuracy, a bonus not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas (Castle Wars, Clan Wars, Soul Wars, TzHaar Fight Pit, PoH/Clan Hall combat rings, Daimon's Crater).",
+    "description": "Full charged set (full helm + platebody + platelegs) grants +15% melee special attack accuracy. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas (Castle Wars, Clan Wars, Soul Wars, TzHaar Fight Pit, PoH/Clan Hall combat rings, Daimon's Crater).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Statius%27s_equipment"
   },
   {
     "name": "Vesta's equipment (bh) (set)",
     "itemIds": [27831, 27832],
-    "description": "Full charged set (chainbody + plateskirt) grants +15% melee special attack accuracy, a bonus not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
+    "description": "Full charged set (chainbody + plateskirt) grants +15% melee special attack accuracy. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Vesta%27s_equipment"
   },
   {
     "name": "Morrigan's equipment (bh) (set)",
     "itemIds": [27836, 27837, 27838],
-    "description": "Full charged set (coif + leather body + leather chaps) grants +15% ranged special attack accuracy, a bonus not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
+    "description": "Full charged set (coif + leather body + leather chaps) grants +15% ranged special attack accuracy. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Morrigan%27s_equipment"
   },
   {
     "name": "Zuriel's equipment (bh) (set)",
     "itemIds": [27839, 27840, 27841],
-    "description": "Full charged set (hood + robe top + robe bottom) grants +25% magic accuracy covering both spells and special attacks - buffed from a 15%, specials-only bonus on 29 January 2025. Not shown on the stats screen. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
+    "description": "Full charged set (hood + robe top + robe bottom) grants +25% magic accuracy covering both spells and special attacks - buffed from a 15%, specials-only bonus on 29 January 2025. Bounty Hunter Store reward, bought inactive and requiring a 5,000,000gp charge per piece before use; only functions inside Bounty Hunter/designated PvP combat areas.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Zuriel%27s_equipment"
   },
   {
     "name": "Confliction gauntlets",
     "itemIds": [31106],
-    "description": "Beyond the displayed +7% magic damage, missing a one-handed Magic attack (spell or weapon) grants the next attack against that same target a hidden double accuracy roll - not shown on the stats screen. Disabled for two-handed weapons, ice spells in PvP, and only applies to the primary target of multi-target spells. Made by upgrading a Tormented bracelet with Mokhaiotl cloth and demon tears (Doom of Mokhaiotl).",
+    "description": "Beyond the displayed +7% magic damage, missing a one-handed Magic attack (spell or weapon) grants the next attack against that same target a double accuracy roll. Disabled for two-handed weapons, ice spells in PvP, and only applies to the primary target of multi-target spells. Made by upgrading a Tormented bracelet with Mokhaiotl cloth and demon tears (Doom of Mokhaiotl).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Confliction_gauntlets"
   }
 ]

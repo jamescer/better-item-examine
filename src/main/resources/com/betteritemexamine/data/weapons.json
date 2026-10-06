@@ -26,7 +26,7 @@
   {
     "name": "Zombie axe",
     "itemIds": [28810],
-    "description": "Carries a hidden +105 slash bonus that applies only when cutting Sarachnis's webs, always slashing them successfully like the Wilderness sword 1 (neither bonus is shown on the stats screen). Also silently counts as an axe for fixing bridges during Temple Trekking.",
+    "description": "Carries a +105 slash bonus that applies only when cutting Sarachnis's webs, always slashing them successfully like the Wilderness sword 1. Also counts as an axe for fixing bridges during Temple Trekking.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Zombie_axe"
   },
   {
@@ -170,49 +170,49 @@
   {
     "name": "Soulreaper axe",
     "itemIds": [28338],
-    "description": "Builds up to 5 hidden 'soul stacks' from landed hits, each granting +6% Strength (up to +30% at 5 stacks) not shown on the stats screen. Stacks decay one at a time after 30 seconds without landing a hit, and the hit that generates a stack doesn't itself benefit from it.",
+    "description": "Builds up to 5 'soul stacks' from landed hits, each granting +6% Strength (up to +30% at 5 stacks). Stacks decay one at a time after 30 seconds without landing a hit, and the hit that generates a stack doesn't itself benefit from it.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Soulreaper_axe"
   },
   {
     "name": "Noxious halberd",
     "itemIds": [29796],
-    "description": "Carries an unlisted chance to envenom non-immune targets (33%, or 50% when a Serpentine helm is also worn), and deals full, non-reduced damage to the Corporeal Beast specifically when using the stab attack style.",
+    "description": "Carries a chance to envenom non-immune targets (33%, or 50% when a Serpentine helm is also worn), and deals full, non-reduced damage to the Corporeal Beast specifically when using the stab attack style.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Noxious_halberd"
   },
   {
     "name": "Zaryte crossbow",
     "itemIds": [26374],
-    "description": "Passively strengthens the special effects of enchanted bolts (e.g. ruby, diamond, onyx) by 10%, a bonus not reflected anywhere on the equipment stats screen.",
+    "description": "Passively strengthens the special effects of enchanted bolts (e.g. ruby, diamond, onyx) by 10%.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Zaryte_crossbow"
   },
   {
     "name": "Barronite mace",
     "itemIds": [25641],
-    "description": "Carries an unlisted +15% accuracy and damage bonus against golem-type monsters.",
+    "description": "Carries a +15% accuracy and damage bonus against golem-type monsters.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Barronite_mace"
   },
   {
     "name": "Thammaron's sceptre",
     "itemIds": [22555, 22552],
-    "description": "When charged with revenant ether and used in the Wilderness, grants an unlisted +50% Magic accuracy and damage bonus against NPCs, stacking with a Slayer helmet or Salve amulet (but not both at once).",
+    "description": "When charged with revenant ether and used in the Wilderness, grants a +50% Magic accuracy and damage bonus against NPCs, stacking with a Slayer helmet or Salve amulet (but not both at once).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Thammaron%27s_sceptre"
   },
   {
     "name": "Accursed sceptre",
     "itemIds": [27665, 27662],
-    "description": "The upgraded Thammaron's sceptre: when charged with revenant ether and used in the Wilderness, grants the same unlisted +50% Magic accuracy and damage bonus against NPCs, stacking with a Slayer helmet or Salve amulet (but not both at once).",
+    "description": "The upgraded Thammaron's sceptre: when charged with revenant ether and used in the Wilderness, grants the same +50% Magic accuracy and damage bonus against NPCs, stacking with a Slayer helmet or Salve amulet (but not both at once).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Accursed_sceptre"
   },
   {
     "name": "Viggora's chainmace",
     "itemIds": [22545, 22542],
-    "description": "When charged with revenant ether and used in the Wilderness, grants an unlisted +50% melee accuracy and damage bonus against NPCs, consuming 1 ether per attack regardless of whether it hits; stacks with a Slayer helmet or Salve amulet (but not both at once).",
+    "description": "When charged with revenant ether and used in the Wilderness, grants a +50% melee accuracy and damage bonus against NPCs, consuming 1 ether per attack regardless of whether it hits; stacks with a Slayer helmet or Salve amulet (but not both at once).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Viggora%27s_chainmace"
   },
   {
     "name": "Keris partisan of corruption",
     "itemIds": [27287],
-    "description": "Retains the base keris's 33% damage bonus vs. Kalphite-type monsters. Its special attack 'Wrath of Amascut' (75% energy) doubles accuracy and adds 25% damage on the triggering hit, and applies a 25% increased damage-taken vulnerability to the target for 10 ticks - none of which is shown on the stats screen.",
+    "description": "Retains the base keris's 33% damage bonus vs. Kalphite-type monsters. Its special attack 'Wrath of Amascut' (75% energy) doubles accuracy and adds 25% damage on the triggering hit, and applies a 25% increased damage-taken vulnerability to the target for 10 ticks.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Keris_partisan_of_corruption"
   },
   {
@@ -224,37 +224,37 @@
   {
     "name": "Silverlight",
     "itemIds": [2402],
-    "description": "Grants an unlisted +60% bonus to both accuracy and max hit against demons.",
+    "description": "Grants a +60% bonus to both accuracy and max hit against demons.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Silverlight"
   },
   {
     "name": "Darklight",
     "itemIds": [6746],
-    "description": "Grants the same unlisted +60% bonus to both accuracy and max hit against demons as Silverlight, its predecessor.",
+    "description": "Grants the same +60% bonus to both accuracy and max hit against demons as Silverlight, its predecessor.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Darklight"
   },
   {
     "name": "Leaf-bladed weapons (battleaxe, sword, spear)",
     "itemIds": [20727, 11902, 4158],
-    "description": "Grants an unlisted +17.5% damage bonus specifically against turoths and kurasks, which stacks additively with a Slayer helmet's damage bonus.",
+    "description": "Grants a +17.5% damage bonus specifically against turoths and kurasks, which stacks additively with a Slayer helmet's damage bonus.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Leaf-bladed_battleaxe"
   },
   {
     "name": "Blisterwood flail",
     "itemIds": [24699],
-    "description": "Grants an unlisted +25% damage and +5% accuracy bonus against vampyres of any tier, neither of which appears on the equipment stats screen.",
+    "description": "Grants a +25% damage and +5% accuracy bonus against vampyres of any tier.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Blisterwood_flail"
   },
   {
     "name": "Dawnbringer",
     "itemIds": [22516],
-    "description": "Ignores accuracy rolls entirely on its normal attack, always landing a successful hit against Verzik's shield even at very low effective Magic attack - a mechanic invisible to the stats interface.",
+    "description": "Ignores accuracy rolls entirely on its normal attack, always landing a successful hit against Verzik's shield even at very low effective Magic attack.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dawnbringer"
   },
   {
     "name": "Blue moon spear",
     "itemIds": [28988],
-    "description": "As part of the 'Frostweaver' set effect with full blue moon armour, successfully casting a Bind, Ice, or Grasp spell has a chance to trigger an instant bonus melee attack from the spear with no action-delay cost - a proc chain not shown on the item's stats.",
+    "description": "As part of the 'Frostweaver' set effect with full blue moon armour, successfully casting a Bind, Ice, or Grasp spell has a chance to trigger an instant bonus melee attack from the spear with no action-delay cost.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Blue_moon_spear"
   },
   {
@@ -266,7 +266,7 @@
   {
     "name": "Bryophyta's staff",
     "itemIds": [22368, 22370],
-    "description": "While charged, gives a 1 in 15 chance to save a nature rune when casting a spell that requires one - a save chance not shown anywhere on the equipment stats interface.",
+    "description": "While charged, gives a 1 in 15 chance to save a nature rune when casting a spell that requires one.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Bryophyta%27s_staff"
   },
   {
@@ -278,7 +278,7 @@
   {
     "name": "Toxic blowpipe",
     "itemIds": [12924, 12926],
-    "description": "Has an unlisted 1/3 chance per shot to not consume a scale (averaging 2 scales per 3 shots), separate from its displayed poison chance. Protect Item preserves remaining dart/scale charges on death.",
+    "description": "Has a 1/3 chance per shot to not consume a scale (averaging 2 scales per 3 shots), separate from its displayed poison chance. Protect Item preserves remaining dart/scale charges on death.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Toxic_blowpipe"
   },
   {
@@ -302,43 +302,43 @@
   {
     "name": "Wolfbane",
     "itemIds": [2952],
-    "description": "As a silver weapon, carries a hidden +10% damage bonus against tier-1 vampyres not shown on its stats (otherwise identical to a mithril dagger).",
+    "description": "As a silver weapon, carries a +10% damage bonus against tier-1 vampyres (otherwise identical to a mithril dagger).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Wolfbane"
   },
   {
     "name": "Rod of ivandis",
     "itemIds": [7648],
-    "description": "Silver weapon with a hidden +10% damage bonus against vampyres, and is able to damage tier-2 vampyres unlike ordinary weapons.",
+    "description": "Silver weapon with a +10% damage bonus against vampyres, and is able to damage tier-2 vampyres unlike ordinary weapons.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Rod_of_ivandis"
   },
   {
     "name": "Ivandis flail",
     "itemIds": [22398],
-    "description": "Upgraded Rod of ivandis; carries a hidden +20% damage bonus against tier 2-3 vampyres not reflected on the stats screen.",
+    "description": "Upgraded Rod of ivandis; carries a +20% damage bonus against tier 2-3 vampyres.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Ivandis_flail"
   },
   {
     "name": "Blisterwood sickle",
     "itemIds": [24697],
-    "description": "Hidden +15% damage and +5% accuracy bonus against vampyres, undocumented in the stats interface.",
+    "description": "+15% damage and +5% accuracy bonus against vampyres.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Blisterwood_sickle"
   },
   {
     "name": "Blisterwood stake",
     "itemIds": [33716],
-    "description": "Hidden +25% damage and +25% accuracy bonus against vampyres, not shown on the stats screen.",
+    "description": "+25% damage and +25% accuracy bonus against vampyres.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Blisterwood_stake"
   },
   {
     "name": "Hallowed flail",
     "itemIds": [33718],
-    "description": "Hidden +25% damage and +25% accuracy bonus against vampyres of all tiers, not shown on stats.",
+    "description": "+25% damage and +25% accuracy bonus against vampyres of all tiers.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Hallowed_flail"
   },
   {
     "name": "Sunspear",
     "itemIds": [33722],
-    "description": "Hidden +25% accuracy and +50% damage bonus against vampyres - the strongest vampyrebane bonus in the game, unlisted on the stats screen.",
+    "description": "+25% accuracy and +50% damage bonus against vampyres - the strongest vampyrebane bonus in the game.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Sunspear"
   },
   {
@@ -350,19 +350,19 @@
   {
     "name": "Slayer's staff (e)",
     "itemIds": [21255],
-    "description": "While attacking your current Slayer assignment, silently boosts Magic Dart's max hit well beyond its normal formula (bolt turns white instead of green); reverts to ordinary damage against non-task monsters. Not indicated anywhere on the stats screen.",
+    "description": "While attacking your current Slayer assignment, boosts Magic Dart's max hit well beyond its normal formula (bolt turns white instead of green); reverts to ordinary damage against non-task monsters.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Slayer%27s_staff_(e)"
   },
   {
     "name": "Twinflame staff",
     "itemIds": [30634],
-    "description": "Casting a non-Strike/Surge elemental spell fires a free second hit at the same target one tick later, dealing 40% of the first hit's damage with no extra runes or XP cost - a mechanic not shown on the staff's stats.",
+    "description": "Casting a non-Strike/Surge elemental spell fires a free second hit at the same target one tick later, dealing 40% of the first hit's damage with no extra runes or XP cost.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Twinflame_staff"
   },
   {
     "name": "Colossal blade",
     "itemIds": [27021],
-    "description": "Grants a hidden max hit bonus of +2 per tile of the target's size (capped at +10 against size 5+ monsters), stacking with a Black mask/Slayer helmet - not reflected anywhere on the stats screen.",
+    "description": "Grants a max hit bonus of +2 per tile of the target's size (capped at +10 against size 5+ monsters), stacking with a Black mask/Slayer helmet.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Colossal_blade"
   },
   {
@@ -374,31 +374,31 @@
   {
     "name": "Dual macuahuitl",
     "itemIds": [28997],
-    "description": "When worn with the full Blood moon armour set, successful hits have a 33% chance to attack one tick early (~55.5% cumulative given its two hits per attack) - the 'Bloodrager' set effect, not shown on the weapon's own stats.",
+    "description": "When worn with the full Blood moon armour set, successful hits have a 33% chance to attack one tick early (~55.5% cumulative given its two hits per attack) - the 'Bloodrager' set effect.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Dual_macuahuitl"
   },
   {
     "name": "Eclipse atlatl",
     "itemIds": [29000],
-    "description": "When worn with the full Eclipse moon armour set, successful hits have a 20% chance to inflict a stacking burn (10 damage over 40 ticks, up to 5 stacks) - not shown on the weapon's own stats.",
+    "description": "When worn with the full Eclipse moon armour set, successful hits have a 20% chance to inflict a stacking burn (10 damage over 40 ticks, up to 5 stacks).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Eclipse_atlatl"
   },
   {
     "name": "Burning claws",
     "itemIds": [29577],
-    "description": "Hidden +5% accuracy and +5% damage against demons not shown on the stats screen. Special attack 'Burning Barrage' hits 3 times with escalating burn chance per landed hit (15%/30%/45%), each burn dealing 10 damage over 40 ticks, stacking up to 5.",
+    "description": "+5% accuracy and +5% damage against demons. Special attack 'Burning Barrage' hits 3 times with escalating burn chance per landed hit (15%/30%/45%), each burn dealing 10 damage over 40 ticks, stacking up to 5.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Burning_claws"
   },
   {
     "name": "Soulflame horn",
     "itemIds": [30759],
-    "description": "Special attack 'Entice' guarantees the wielder's (and up to 3 nearby allies') next melee attack within 10 ticks will land (in PvP this becomes a +50% accuracy boost instead of a guarantee) - a support mechanic invisible from the weapon's stats.",
+    "description": "Special attack 'Entice' guarantees the wielder's (and up to 3 nearby allies') next melee attack within 10 ticks will land (in PvP this becomes a +50% accuracy boost instead of a guarantee).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Soulflame_horn"
   },
   {
     "name": "Bow of Faerdhinen / Crystal bow",
     "itemIds": [25862, 25865, 25867, 23983, 23985, 24123],
-    "description": "Damage and accuracy are silently boosted by up to +15%/+30% when the full Crystal armour set is also worn, a bonus not reflected on the bow's own displayed stats.",
+    "description": "Damage and accuracy are boosted by up to +15%/+30% when the full Crystal armour set is also worn.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Bow_of_faerdhinen"
   },
   {
@@ -416,7 +416,7 @@
   {
     "name": "Trident of the swamp",
     "itemIds": [12899, 12900],
-    "description": "Carries an unlisted 25% chance per successful hit to envenom the target, rising to 100% against monsters (not players) while a Serpentine helm is also worn - none of this is shown on the trident's stats.",
+    "description": "Carries a 25% chance per successful hit to envenom the target, rising to 100% against monsters (not players) while a Serpentine helm is also worn.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Trident_of_the_swamp"
   },
   {
@@ -440,13 +440,13 @@
   {
     "name": "Sulphur blades",
     "itemIds": [29084],
-    "description": "Each attack performs two independently-rolled hits instead of one, splitting the weapon's combined max hit roughly in half per hit (odd totals round one hit up, one down) - a dual-roll mechanic not shown anywhere on the stats screen.",
+    "description": "Each attack performs two independently-rolled hits instead of one, splitting the weapon's combined max hit roughly in half per hit (odd totals round one hit up, one down).",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Sulphur_blades"
   },
   {
     "name": "Scorching bow",
     "itemIds": [29591],
-    "description": "Grants an unlisted +30% accuracy and damage bonus against demons, stacking additively with a Slayer helmet's demon bonus - none of this is shown on the bow's displayed stats.",
+    "description": "Grants a +30% accuracy and damage bonus against demons, stacking additively with a Slayer helmet's demon bonus.",
     "wikiUrl": "https://oldschool.runescape.wiki/w/Scorching_bow"
   }
 ]
